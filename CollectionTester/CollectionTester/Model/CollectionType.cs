@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace CollectionTester.Model
 {
-    class CollectionType
+    //Перечисление существующих контейнеров.
+    public enum CollectionType
     {
+        List,
+        ArrayList,
+        Massiv,
+        Hashtable,
+        HashtableGetHashCode,
+        SortedList,
+        DictionaryGetHashCode,
+        HashSet,
+        Dictionary
     }
 }

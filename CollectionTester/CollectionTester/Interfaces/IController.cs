@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CollectionTester.Interfaces
 {
-    interface IController
+    //Интерфейс для класса Controller.
+    public interface IController
     {
+        void TestAllCollectionsAndDisplayResults();
     }
 }

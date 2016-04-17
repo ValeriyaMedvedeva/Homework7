@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,6 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collection\ArrayListWrapper.cs" />
+    <Compile Include="Collection\DictionaryWrapper.cs" />
+    <Compile Include="Collection\DictionaryGetHashCode.cs" />
+    <Compile Include="Collection\HashSetWrapper.cs" />
+    <Compile Include="Collection\Hashtable1.cs" />
+    <Compile Include="Collection\HashtableGetHashCode.cs" />
+    <Compile Include="Collection\ListWrapper.cs" />
+    <Compile Include="Collection\MassivWrapper.cs" />
+    <Compile Include="Collection\SortedListWrapper.cs" />
     <Compile Include="Interfaces\ICollectionWrapper.cs" />
     <Compile Include="Interfaces\IController.cs" />
     <Compile Include="Model\CollectionType.cs" />
@@ -51,9 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Collections\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
